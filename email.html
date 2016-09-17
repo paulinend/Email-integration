@@ -1,0 +1,277 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Test technique pour Qonto</title>
+  <script src="https://use.fontawesome.com/96b867d284.js"></script>
+  <style TYPE="text/css">
+    body {
+      padding: 0px;
+      margin: 0px;
+      background-color: #000;
+    }
+    .main-content {
+      width: 600px;
+      margin: 0 auto;
+      background: #fff;
+    }
+    .main-content-header {
+      background-color: rgb(244, 244, 244);
+
+    }
+    .navigation {
+      display: flex;
+      justify-content: space-around;
+    }
+    .navigation ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      height: 30px;
+      width: 80%;
+      margin-top: 25px;
+
+    }
+    .navigation ul a {
+      text-decoration: none;
+      color: rgb(139, 147, 158);
+    }
+    ul li:last-child {
+      border: 1px solid rgb(139, 147, 158);
+      border-radius: 18px;
+      color: rgb(139, 147, 158);
+      padding: 6px;
+      cursor: pointer;
+    }
+    .main-content-first {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: rgb(94, 100, 109);
+      height: 330px;
+      margin-top: 70px;
+    }
+    .main-content-first img, .main-content-third img {
+      width: 300px;
+      height: 200px;
+    }
+    .main-content-first p {
+      border: 1px solid rgb(247, 228, 150);
+      color: #fff;
+      background-color: rgb(247, 228, 150);
+      padding: 10px 30px;
+      border-radius: 18px;
+      font-weight: bold;
+      cursor: pointer;
+
+    }
+    .main-content-first h4 {
+      margin-top: 0;
+      color: rgb(139, 147, 158);
+    }
+    .main-content-second {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 50px;
+    }
+    .main-content-second p:first-of-type, .gallery p:first-child {
+      color: rgb(247, 228, 150);
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    .main-content-second p:nth-child(2), .gallery p:nth-child(2) {
+      letter-spacing: 1px;
+      font-size: 20px;
+      color: rgb(94, 100, 109);
+      margin-top: 0;
+    }
+
+    .main-features {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+    }
+    .main-feature {
+      text-align: center;
+      color: rgb(94, 100, 109);
+
+    }
+
+    .main-feature i {
+      border: 1px solid rgb(94, 100, 109);
+      border-radius: 50px;
+      color: rgb(94, 100, 109);
+      padding: 25px;
+    }
+    .main-content-third {
+      background-color: rgb(244, 244, 244);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      height: 360px;
+    }
+    .content-third-text p:first-child {
+      font-size: 23px;
+      font-weight: bold;
+      color: rgb(94, 100, 109);
+    }
+
+    .content-third-text p {
+      color: rgb(139, 147, 158);
+    }
+
+    .content-third-text a {
+      text-decoration: none;
+      color: rgb(247, 228, 150);
+      font-weight: bold;
+
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 400px;
+    }
+    .gallery-photos {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 10px 60px;
+      height: 210px;
+
+
+    }
+    .gallery-photos img {
+      width: 150px;
+      height: 100px;
+    }
+    .brands {
+      display: flex;
+      justify-content: space-around;
+      background-color: rgb(244, 244, 244);
+    }
+    footer {
+      display: flex;
+      justify-content: space-around;
+      color: rgb(139, 147, 158);
+      background-color: rgb(111, 119, 130);
+      font-weight: bold;
+      height: 150px;
+    }
+    .logo {
+      width: 50%;
+      margin-left: 70px;
+    }
+    .logo a {
+      color: rgb(247, 228, 150);
+      text-decoration: none;
+    }
+    .socialnetworks {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 50%;
+      margin-right: 70px;
+    }
+  </style>
+</head>
+<body>
+  <div class="main-content">
+    <div class="main-content-header">
+      <div class="navigation">
+        <a href="#"><img src="images/visa2.png" alt="logo visa"></a>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li>Subscribe</li>
+        </ul>
+      </div>
+        <div class="main-content-first">
+          <h2>Showcase your awesome product</h2>
+          <h4>With Visa's awesome template</h4>
+          <p>Try Now</p>
+          <img src="images/creditcard.png" alt="logo credit card">
+        </div>
+    </div>
+    <div class="main-content-second">
+      <p>Features</p>
+      <p>Discover the futur</p>
+    </div>
+    <div class="main-features">
+      <div class="main-feature one">
+        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+        <p>Cloud Upload</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      </div>
+      <div class="main-feature two">
+        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+        <p>Easy to use</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+      </div>
+      <div class="main-feature three">
+        <i class="fa fa-ship" aria-hidden="true"></i>
+        <p>Ecommerce</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+      </div>
+    </div>
+    <div class="main-content-third">
+      <img src="images/creditcard.png" alt="credit card">
+      <div class="content-third-text">
+        <p>The unsee blade is the deadlist</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. cati unde voluptatibus optio distinctio nulla totam maiores aperiam autem facilis asperiores. </p>
+        <p><a href="#">Read more...</a></p>
+      </div>
+    </div>
+    <div class="gallery">
+      <p>Gallery</p>
+      <p>The truth lies in darkness.</p>
+      <div class="gallery-photos">
+        <img src="images/cuba.jpeg" alt="">
+        <img src="images/djing.jpeg" alt="">
+        <img src="images/mountains.jpeg" alt="">
+        <img src="images/festival.jpeg" alt="">
+        <img src="images/lion.jpeg" alt="">
+        <img src="images/landscape.jpeg" alt="">
+      </div>
+    </div>
+    <div class="brands">
+      <img src="images/american-express.png" alt="">
+      <img src="images/paypal.png" alt="">
+      <img src="images/unionpay.png" alt="">
+      <img src="images/mastercard.png" alt="">
+      <img src="images/hsbc.png" alt="">
+      <img src="images/worldpay.png" alt="">
+
+    </div>
+    <footer>
+      <div class="logo">
+        <img src="images/visa2.png" alt="">
+        <p>You are subscribed to Mailjet marketing newsletter. <a href="#">Unsuscribe here</a></p>
+      </div>
+      <div class="socialnetworks">
+        <i class="fa fa-dribbble" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+      </div>
+    </footer>
+
+
+
+
+
+
+  </div>
+
+</body>
+</html>
